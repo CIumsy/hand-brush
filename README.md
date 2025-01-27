@@ -8,8 +8,7 @@ Note:
 
 1. Demos (gifs) will take a bit of time to load coz they are heavy 🧸
 
-2. You are required to install tensorflow-2.0, opencv, numpy and other
-  python libraries to get this application to work.
+2. You are required to install the required libraries using the requirements.txt file.
 
 3. To run the notebooks locally you are required to install Jupyter-notebook
   OR Jupyter-lab.
@@ -19,6 +18,38 @@ Note:
 ```
 
 <br>
+
+## Prerequisites
+- Python 3.7 or higher
+- A working webcam
+
+## Installation
+1. Clone the repository:
+   ```bash
+   cd <repository-directory>
+   git clone https://github.com/lorforlinux/hand-brush.git
+
+2. Install the required libraries:
+   ```bash
+   pip install -r requirements.txt
+
+
+###  Draw using your hand
+---
+This application uses a webcam and hand gestures to control mouse movements and clicks in real time. It leverages MediaPipe for hand tracking, OpenCV for video processing, and PyAutoGUI for mouse control.
+
+## Features
+- **Move Mouse Cursor:** Use your index finger to control the cursor position.
+- **Left Click:** Close your fist.
+- **Right Click:** Open your hand and flex your fingers.
+- **Smooth Cursor Movement:** Includes smoothing and thresholds for responsive control.
+
+#   Run the script
+    ```bash
+    python cursor.py
+
+
+#  Run the script
 
 
 ###  Demo of the program!
