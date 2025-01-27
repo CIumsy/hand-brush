@@ -46,7 +46,8 @@ This application uses a webcam and hand gestures to control mouse movements and 
 
 ### Run the script
     python cursor.py
-    
+
+#### Terminate the script using CTRL+C   
     
 
 
