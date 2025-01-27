@@ -36,7 +36,7 @@ Note:
 
 ##  Control the cursor using your hand
 ---
-This application uses a webcam and hand gestures to control mouse movements and clicks in real time. It leverages MediaPipe for hand tracking, OpenCV for video processing, and PyAutoGUI for mouse control.
+This program uses a webcam and hand gestures to control mouse movements and clicks in real time. It leverages MediaPipe for hand tracking, OpenCV for video processing, and PyAutoGUI for mouse control.
 
 ### Features
 - **Move Mouse Cursor:** Use your index finger to control the cursor position.
@@ -55,10 +55,34 @@ This application uses a webcam and hand gestures to control mouse movements and 
     
 
 
-###  Run the script
+##  Draw using your hands
+---
+This program allows users to draw on a virtual canvas using hand gestures detected via a webcam. It leverages MediaPipe for real-time hand tracking and OpenCV for rendering the canvas. Users can draw freehand, toggle straight-line mode, erase, and customize brush settings and colors.
+
+### Features
+- **Freehand Drawing**: Use your hand to draw lines on the canvas.
+- **Customizable Brush**: Change brush size and color.
+- **Clear Canvas**: Clear the entire drawing canvas with a single command.
+- **On-Screen Tutorial**: Toggle an interactive tutorial for controls.
+
+### Run the script
+    python handdraw.py
+#### Terminate the program by pressing 'q' on your keyboard.
+
+### Controls
+-   q: Quit the program.
+-   e: Clear the canvas.
+-   r: Change brush color to Red.
+-   g: Change brush color to Green.
+-   b: Change brush color to Blue.
+-   k: Change brush color to Black.
+-   y: Change brush color to Cyan.
+-   +: Increase brush size.
+-   -: Decrease brush size.
+-   t: Show or hide the tutorial.
 
 
-###  Demo of the program!
+##  Demo of the program!
 ---
 For hand traking my application here is using the pretrained ``SSD with MobilenetV1` model from [EvilPort2](https://github.com/EvilPort2)'s
 hand tracking [repository](https://github.com/EvilPort2/Hand-Tracking). The paint toolbox uses the code from [acl21](https://github.com/acl21)'s Webcam Paint OpenCV [repository](https://github.com/acl21/Webcam_Paint_OpenCV). Hand Brush program is truly a combination of those two repositories and i highly recommend you to check out their repositories 🦔
@@ -79,7 +103,7 @@ Watch the demo with updated tool box [here](https://www.youtube.com/watch?v=Pnr-
 <br>
 
 
-### Hand detection demo!
+## Hand detection demo!
 ---
 
 This demo uses [EvilPort2](https://github.com/EvilPort2)'s
@@ -101,7 +125,7 @@ python detect_single_threaded.py
 <br>
 
 
-### Hand pointer demo!
+## Hand pointer demo!
 ---
 This demo uses the [akshaybahadur21](https://github.com/akshaybahadur21)'s Hand Movement Tracking [code](https://github.com/akshaybahadur21/HandMovementTracking) for creating the pointer trail.
 
@@ -118,7 +142,7 @@ python handpointer.py
 
 <br>
 
-### Contour demo!
+## Contour demo!
 ---
 This one is just for fun and learning [How can I find contours inside ROI using opencv and Python?](https://stackoverflow.com/questions/42004652/how-can-i-find-contours-inside-roi-using-opencv-and-python).
 
@@ -133,7 +157,7 @@ python handcontour.py
 
 <br>
 
-### Jupyter Notebooks
+## Jupyter Notebooks
 ---
 If you want to learn how does it work internally, the best way is to follow the Jupyter Notebooks i have included in this repository.
 
