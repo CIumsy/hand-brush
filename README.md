@@ -45,7 +45,6 @@ This application uses a webcam and hand gestures to control mouse movements and 
 - **Smooth Cursor Movement:** Includes smoothing and thresholds for responsive control.
 
 ### Run the script
-    ```
     python cursor.py
     
     
