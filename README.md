@@ -44,9 +44,11 @@ This application uses a webcam and hand gestures to control mouse movements and 
 - **Right Click:** Open your hand and flex your fingers.
 - **Smooth Cursor Movement:** Includes smoothing and thresholds for responsive control.
 
-###   Run the script
-    ```bash
+### Run the script
+    ```
     python cursor.py
+    
+    
 
 
 ###  Run the script
