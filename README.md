@@ -46,10 +46,12 @@ This application uses a webcam and hand gestures to control mouse movements and 
 
 ### Run the script
     python cursor.py
-
-### Note: You can also run cursorlite.py to only control the cursor without the buttons.
-
 #### Terminate the script using CTRL+C   
+
+
+#### Note: You can also run cursorlite.py to only control the cursor without the buttons.
+
+  
     
 
 
