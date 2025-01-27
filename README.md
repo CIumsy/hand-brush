@@ -34,22 +34,22 @@ Note:
    pip install -r requirements.txt
 
 
-###  Draw using your hand
+##  Draw using your hand
 ---
 This application uses a webcam and hand gestures to control mouse movements and clicks in real time. It leverages MediaPipe for hand tracking, OpenCV for video processing, and PyAutoGUI for mouse control.
 
-## Features
+### Features
 - **Move Mouse Cursor:** Use your index finger to control the cursor position.
 - **Left Click:** Close your fist.
 - **Right Click:** Open your hand and flex your fingers.
 - **Smooth Cursor Movement:** Includes smoothing and thresholds for responsive control.
 
-#   Run the script
+###   Run the script
     ```bash
     python cursor.py
 
 
-#  Run the script
+###  Run the script
 
 
 ###  Demo of the program!
