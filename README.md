@@ -67,9 +67,11 @@ This program allows users to draw on a virtual canvas using hand gestures detect
 
 ### Run the script
     python handdraw.py
-#### Terminate the program by pressing 'q' on your keyboard.
+
 
 <img src="canvas.jpg" alt="Canvas" style="display: block; margin: 10px auto; width: 400px;">
+
+#### Terminate the program by pressing 'q' on your keyboard.
 
 ### Controls
 -   q: Quit the program.
